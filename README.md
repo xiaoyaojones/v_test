@@ -21,8 +21,7 @@
 	- mouseover时停止自动播放
 * #collPlayer
 	- 自动播放及mouseover时自动播放
-* img.lazy
-	-scorll按需加载
+* img.lazy(scorll按需加载)
 * scorll时停止所有动画自动播放及高级浏览器停止所有css附带的:hover效果
 
 Grunt功能
@@ -56,12 +55,12 @@ Grunt任务指令
 -----------------------------
 ###
 	template
-		├── lib										js库、框架
-		│	├── jquery								jquery
+		├── lib									js库、框架
+		│	├── jquery							jquery
 		│   │	└── <version>
 		│   └── seajs								seajs
 		│   	└── <version> 							
-		├── source 									源码目录
+		├── source 								源码目录
 		│   ├── css									less源碼、sprites.css
 		│   ├── images								不需要sprites的图片
 		│   ├── js									js源码
@@ -70,19 +69,19 @@ Grunt任务指令
 		│   ├── slice								需要sprites的图片与css
 		│   ├── data								测试所需数据及图片
 		│   └── *.html 								html源码
-		├── tmp										临时目录
+		├── tmp									临时目录
 		│   └── slice								sprites图片及css
-		├── dev										开发调试目录
+		├── dev									开发调试目录
 		│   ├── css									
 		│   ├── images								
 		│   ├── js									
 		│   ├── slice								
-		│   └── *.html 								html源码
-		├── dist									发布目录
+		│   └── *.html 							
+		├── dist								发布目录
 		│   ├── css									
 		│   ├── images								
 		│   ├── js									
 		│   ├── slice								
-		│   └── *.html 								html源码
+		│   └── *.html 							
 		├── Gruntfile.js 							
 		└── package.json 							
