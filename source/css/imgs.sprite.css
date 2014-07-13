@@ -1,0 +1,16 @@
+.icon_new{ width: 30px; height: 14px; background: url(../images/imgs.png?20140713200733);background-position:-250px -46px; }
+.icon_down{ width: 248px; height: 63px; background: url(../images/imgs.png?20140713200733);background-position:-0px -65px; }
+.noscroll .icon_down:hover,.ie .icon_down:hover{ background: url(../images/imgs.png?20140713200733);background-position:-0px -0px; }
+.icon_qzone{ width: 109px; height: 21px; background: url(../images/imgs.png?20140713200733);background-position:-250px -23px; }
+.icon_type{ width: 61px; height: 48px; background: url(../images/imgs.png?20140713200733);background-position:-52px -184px; }
+.icon_prev_1{ width: 38px; height: 38px; background: url(../images/imgs.png?20140713200733);background-position:-153px -184px; }
+.icon_next_1{ width: 36px; height: 38px; background: url(../images/imgs.png?20140713200733);background-position:-115px -184px; }
+.icon_qqwb{ width: 119px; height: 21px; background: url(../images/imgs.png?20140713200733);background-position:-250px -0px; }
+.icon_prev_2{ width: 26px; height: 52px; background: url(../images/imgs.png?20140713200733);background-position:-0px -130px; }
+.noscroll .icon_prev_2:hover,.ie .icon_prev_2:hover{ width: 26px; height: 52px; background: url(../images/imgs.png?20140713200733);background-position:-84px -130px; }
+.icon_next_2{ width: 26px; height: 52px; background: url(../images/imgs.png?20140713200733);background-position:-56px -130px; }
+.noscroll .icon_next_2:hover,.ie .icon_next_2:hover{ width: 26px; height: 52px; background: url(../images/imgs.png?20140713200733);background-position:-28px -130px; }
+.icon_hot{ width: 51px; height: 51px; background: url(../images/imgs.png?20140713200733);background-position:-112px -130px; }
+.icon_sale{ width: 33px; height: 31px; background: url(../images/imgs.png?20140713200733);background-position:-193px -184px; }
+.icon_hot_sale{ width: 50px; height: 50px; background: url(../images/imgs.png?20140713200733);background-position:-165px -130px; }
+.icon_green_sale{ width: 50px; height: 50px; background: url(../images/imgs.png?20140713200733);background-position:-0px -184px; }

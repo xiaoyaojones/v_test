@@ -1,0 +1,123 @@
+/*wrap*/
+.wrap{
+	min-width: @min-width;
+	margin: 0 auto;
+}
+.inner{
+	width: @min-width;
+	margin: 0 auto;
+}
+
+/*header*/
+.header{
+	height: 61px;
+	padding-top: 20px;
+	&_pie{
+		float: left;
+		width: 1px;
+		height: 39px;
+		background-color: @gray_l;
+		margin: 0 21px;
+	}
+	&_tips{
+		float: right;
+		padding: 12px;
+		line-height: 12px;
+		background-color: #edeef0;
+		border: 1px solid #dcdcdc;
+		border-radius: 4px;
+		&_a{
+			color: @black;
+			&:hover{
+				.noscroll &, .ie &{
+					color: @orange;
+				}
+			}
+		}
+	}
+}
+	.logo{
+		&_s{
+			margin-top: 5px;
+		}
+		&,&_s{
+			float: left;
+		}
+	}
+
+/*nav*/
+.nav{
+	height: 38px;
+	border-top: 1px solid #434343;
+	margin-bottom: @space;
+	&_s{
+		height: 37px;
+		border-top: 1px solid #565656;
+		.gradient(@start: #424242; @end:#2b2b2b);
+	}
+	&_pie{
+		height: 18px;
+		float: left;
+		border-left: 1px solid #1c1c1c;
+		border-right: 1px solid #525252;
+		margin: 9px 0 0 56px;
+	}
+	
+}
+
+	.menu{
+		float: left;
+		padding-top: 2px;
+		font-size: 14px;
+		&_a{
+			float: left;
+			padding: 0 14px;
+			line-height: 35px;
+			color: @white;
+			&:hover{
+				.noscroll &, .ie &{
+					color: @orange;
+				}
+			}
+			&_curr{
+				font-weight: 700;
+				border-radius: 3px 3px 0 0;
+				color: @black;
+				.gradient(@start: #fff; @end:#e2e2e2);
+				&_:hover{
+					.noscroll &, .ie &{
+						color: @black;
+					}
+				}
+			}
+		}
+		&_s{
+			float: right;
+			padding-top: 12px;
+			line-height: 12px;
+			.lte_ie7 &{
+				line-height: 14px;
+			}
+			&_a{
+				float: right;
+				color: #d7d7d7;
+				margin: 0 8px;
+				position: relative;
+				&:hover{
+					.noscroll &, .ie &{
+						color: @orange;
+					}
+				}
+			}
+			& .icon_new{
+				position: absolute;
+				top: -20px;
+				left: 13px;
+			}
+		}
+
+	}
+
+.body{
+	margin-bottom: @space;
+}

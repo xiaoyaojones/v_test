@@ -1,0 +1,78 @@
+.clearfix{
+	zoom:1;
+	&:after{
+		content: "\0020";
+		display: block;
+		height: 0;
+		clear: both;
+	}
+}
+
+.fix_dib{
+	display: inline-block;
+	.lte_ie7 &{
+		zoom: 1;
+		display: inline;
+	}
+}
+
+.htt{
+	text-indent: 100%;
+	overflow: hidden;
+	white-space: nowrap;
+	.lte_ie7 &{
+		text-indent: 0;
+		font-size: 0;
+		line-height: 0
+	}
+}
+
+.arrow{
+	display:block;
+	width:0;
+	height:0;
+	font-size:0;
+	overflow:hidden;
+	position:absolute;
+}
+
+.gradient(@start,@end){
+	background: @start;
+	background: -moz-linear-gradient(top,  @start 0%, @end 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,@start), color-stop(100%,@end));
+	background: -webkit-linear-gradient(top,  @start 0%,@end 100%);
+	background: -ms-linear-gradient(top,  @start 0%,@end 100%);
+	background: linear-gradient(to bottom,  @start 0%,@end 100%);
+	.ie &{
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr=@start, endColorstr=@end,GradientType=0 );
+	}
+}
+
+.icon_play_s{
+	width: 18px;
+	height: 18px;
+	.fix_dib;
+	position: relative;
+	border: 1px solid #fff;
+	box-shadow: inset 0 0 1px 0 #fff;
+	border-radius: 4px;
+	position: relative;
+	vertical-align: top;
+	& .arrow{
+		border-style: dashed dashed dashed solid;
+		border-width: 4px 7px;
+		border-color: transparent transparent transparent #fff;
+		position: absolute;
+		top: 5px;
+		left: 6px;
+	}
+}
+
+.fadein {
+  -webkit-transition: all .3s ease-in-out;
+  -moz-transition: all .3s ease-in-out;
+  -ms-transition: all .3s ease-in-out;
+  -o-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
+  opacity: 1;
+}
