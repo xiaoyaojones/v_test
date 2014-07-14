@@ -20,7 +20,7 @@
 	- img lazyload(初始加载1、2图，自动播放时自动加载下一张img，mouseover到缩略图时加载相关该图及该图下一图)
 	- mouseover时停止自动播放
 * #collPlayer
-	- 自动播放及mouseover时自动播放
+	- 自动播放及mouseover时停止自动播放
 * img.lazy(scorll按需加载)
 * scorll时停止所有动画自动播放及高级浏览器停止所有css附带的:hover效果
 
